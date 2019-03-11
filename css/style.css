@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+html,body,header, #intro{
+  height: 100%;
+  font-family: 'Nunito', sans-serif !important;
+}
+#intro {
+  background: url(../img/moe/intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a.hed{
+  margin-left: 60px !important;
+}
+.ot {
+  margin-left: 20px;
+}
+.navbar{
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+#intro h1{
+  font-size: 78px;
+  font-weight: bold;
+  color: white;
+}
+.bor {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#services {
+  background: url(../img/moe/fon.jpg);
+  height: 700px;
+}
+#feedback {
+  background: url(../img/moe/fon.jpg);
+  height: 417px;
+}
+#feedback hr.ana {
+  width: 60px;
+}
+#clients {
+  height: 527px;
+}
+#vika {
+  background: url(../img/moe/blue.jpg);
+  height: 151px;
+}
+#vika input {
+  background-color: transparent;
+}
+#vika ::placeholder {
+  color: white;
+}
+#last {
+  height: 300px;
+}
+#vika button{
+  margin-top: 11px;
+}
+#last {
+  background: url(../img/moe/sec.jpg);
+}
+#last p {
+  font-size: 13px;
+  margin-bottom: 28px;
+}
+#last h5 {
+  margin-bottom: 28px;
+}
+#last h5:hover{
+  text-decoration: underline;
+}
+
+.sasha:hover{
+  background-color:#11b2c1 ;
+
+}
+@keyframes swing {
+  15% {
+    transform: translateX(9px);
+  }
+  30% {
+
+    transform: translateX(-9px);
+  }
+  40% {
+
+    transform: translateX(6px);
+  }
+  50% {
+
+    transform: translateX(-6px);
+  }
+  65% {
+
+    transform: translateX(3px);
+  }
+  100% {
+
+    transform: translateX(0);
+  }
+}
+
+.navbar-brand:hover {
+  animation: swing 0.6s ease;
+   animation-iteration-count: 1;
+}
+a.nav-link:hover{
+  animation: swing 0.6s ease;
+   animation-iteration-count: 1;
+}
+
+#last i:hover{
+    animation: swing 0.6s ease;
+     animation-iteration-count: 1;
+  }
+@media screen and (max-width: 375px) and (max-height: 667px) {
+  nav li.nav-item a {
+    margin-left: 0px !important;
+  }
+  header{
+    height: 530px !important;
+  }
+  .nuta {
+    display: none;
+  }
+  #intro div.bor {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  #services hr{
+    margin-top: 0px !important;
+  }
+  #intro h1{
+    margin-left: 14px !important;
+    margin-right: 14px !important;
+    font-size: 73px !important;
+  }
+  #services h2{
+    padding-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
+  #services div.col-md-4{
+    margin-top: 15px !important;
+  }
+  #services {
+    height: 550px !important;
+  }
+  #feedback div.col-md-4{
+    margin-top: 15px !important;
+  }
+  #feedback h2{
+    padding-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
+  #feedback div.nun {
+    padding-left: 0px !important;
+  }
+  #feedback p {
+    font-size: 9px;
+  }
+  #feedback div.col {
+    padding-right: 6px !important;
+    padding-left: 8px !important;
+  }
+  #feedback {
+    height: 470px !important;
+  }
+  .paq {
+    display: none;
+  }
+  .par {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    margin-top: 14px;
+  }
+.tura {
+  padding-left:
+}
+#clients hr{
+  margin-top: 0px !important;
+}
+#clients h2{
+  padding-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+#clients div.col-md-4{
+  margin-top: 15px !important;
+}
+#clients img {
+  transform: scale(0.7 );
+}
+div.bima {
+
+}
+#clients div.row {
+  margin-top: 10px !important;
+  padding-top: 0px !important;
+}
+#clients {
+  height: 570px !important;
+}
+#vika h2{
+  font-size: 19px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#vika p{
+  padding-left: 10px;
+  font-size: 14px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+#vika br{
+  display: none;
+}
+#vika {
+  height: 250px;
+}
+.ruru {
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+#vika input {
+  width: 160px;
+}
+.ruru{
+text-align: center !important;
+align-items: center !important;
+}
+#last {
+  height: 350px;
+}
+.tat {
+  margin-top: 0px !important;
+}
+#last p{
+  margin-bottom: 6px;
+}
+#last h5 {
+  margin-bottom: 13px;
+}
+div.pt-5{
+  padding-top: 13px !important;
+}
+div.col-xs-2 {
+  padding-top: 13px !important;
+  text-align: left !important;
+  align-items: flex-start !important;
+}
+#last button{
+  margin-left: 0px;
+}
+}
+@media screen and (max-width: 414px) and (min-width: 376px) and (max-height: 736px){
+  nav li.nav-item a {
+    margin-left: 0px !important;
+  }
+  header {
+    height: 500px;
+  }
+  #services div.col-md-4{
+    margin-top: 15px !important;
+  }
+  #services h2 {
+    padding-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
+  .nuta{
+    display: none;
+  }
+  section#services {
+    height: 650px;
+  }
+  #feedback div.col-md-4{
+    margin-top: 15px !important;
+  }
+  #feedback h2 {
+    padding-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
+  #feedback div.col {
+    padding-right: 6px !important;
+    padding-left: 8px !important;
+}
+  #feedback {
+    height: 450px;
+  }
+  .paq {
+    display: none;
+  }
+  #feedback div.nur {
+    padding-right: 0px !important;
+  }
+  #feedback p {
+    font-size: 12px;
+  }
+  #clients div.col-md-4{
+    margin-top: 15px !important;
+  }
+  #clients h2 {
+    padding-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
+  #clients {
+    height: 700px;
+  }
+  #clients div.row {
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  #feedback p.lal {
+    margin-left: 0px !important;
+  }
+  .sasa {
+    margin-top: 10px;
+  }
+  #clients div.col {
+    padding-top: 10px !important;
+  }
+  #vika {
+    height: 290px;
+  }
+  #vika h2,p{
+    margin-left: 10px !important;
+  }
+  #vika p{
+    margin-bottom: 0px !important;
+  }
+  #vika br{
+    display: none;
+  }
+  #vika div.col {
+    padding-top: 0px !important;
+  }
+  #vika input {
+    width: 180px;
+  }
+  div.ruru {
+    margin-top: 0px !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+  #last {
+    height: 500px;
+  }
+  #last div.col-xs-2 {
+    padding-top: 0px !important;
+    text-align: left !important;
+    align-items: flex-start !important;
+  }
+  #last button {
+    margin-left: 0px !important;
+  }
+  #last div.tat{
+    margin-top: 0px !important;
+  }
+
+}
